@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<!-- general vars -->
+	<settings>
+	
+		<item name="copyright"><![CDATA[Jordan Levinson  |  <a href="event:privacy,0">Privacy Policy</a>]]></item>
+		<item name="companyName"><![CDATA[Jordan]]></item>
+		<item name="companyName2"><![CDATA[Levinson]]></item>
+		<item name="mapSlogan"><![CDATA[VIEW MAP]]></item>
+
+	</settings>	
+	
+	<map_xml >
+		<!-- 
+		To make Google Maps work in your own web pages, you should get your unique key to API Maps for your domain. See this for more information:
+		http://code.google.com/intl/en/apis/maps/signup.html
+		-->
+		<Google_Maps_API_Key><![CDATA[ABQIAAAAWCGzSMrk7YDL2KSdECDFthQAabpEaKdyq9wCwiv1FEVBK6ryGBTkEu1tNF-s0G-qzo70KO8qE3HaWw]]></Google_Maps_API_Key>
+		
+		<!--  Define the location where the map will open - latitude, longitude and zoom -->
+		 <map_center lat="40.706425" lon="-74.009491" zoom="15"/>
+		
+		<!--  Define your offices' locations  -->	  
+		  <location>
+			   <lat>40.713000</lat>
+			   <lon>-74.015000</lon>
+			   <name_tip>Office 1</name_tip>
+			   <title_tip><![CDATA[Office 1]]></title_tip>
+			   <content_tip><![CDATA[Office 1 Title]]></content_tip>
+		  </location>
+		  
+		  <location>
+			   <lat>40.705000</lat>
+			   <lon>-74.012000</lon>
+			   <name_tip>Office 2</name_tip>
+			   <title_tip><![CDATA[Office 2]]></title_tip>
+			   <content_tip><![CDATA[Office 2 Title]]></content_tip>
+		  </location>
+		  
+		  <location>
+			   <lat>40.710000</lat>
+			   <lon>-74.000000</lon>
+			   <name_tip>Office 3</name_tip>
+			   <title_tip><![CDATA[Office 3]]></title_tip>
+			   <content_tip><![CDATA[Office 3 Title]]></content_tip>
+		  </location>
+	 
+	 </map_xml>	
+	
+	
+	<!-- menu -->
+
+	<menu>
+	
+			<button><![CDATA[<font letterspacing="-1">Portfolio</font>]]></button>
+			<button><![CDATA[<font letterspacing="-1">About</font>]]></button>
+
+			<button><![CDATA[<font letterspacing="-1">Videos</font>]]></button>
+			<button><![CDATA[<font letterspacing="-1">Contacts</font>]]></button>
+			
+	</menu>
+	
+
+	<!-- pages -->
+	
+	
+	<pages>
+	
+				
+		<titlePage name="Splash">
+		
+			<imagesPage>
+			
+				<image imageUrl="34951-map.jpg" link="asfunction:link"></image>
+
+			</imagesPage>
+		
+		</titlePage>
+		
+		
+		<titlePage name="Portfolio page">
+
+			<gallery>
+	
+				<images imagesSmall="http://s7.picofile.com/file/8390607576/34951_smallpic_01.jpg"  imagesBig="http://s6.picofile.com/file/8390607784/34951_bigpic_01.jpg"/>
+				<images imagesSmall="34951-smallpic_02.jpg"  imagesBig="34951-bigpic_02.jpg"/>
+				<images imagesSmall="34951-smallpic_03.jpg"  imagesBig="34951-bigpic_03.jpg"/>
+				<images imagesSmall="34951-smallpic_04.jpg"  imagesBig="34951-bigpic_04.jpg"/>
+				<images imagesSmall="34951-smallpic_05.jpg"  imagesBig="34951-bigpic_05.jpg"/>
+				<images imagesSmall="34951-smallpic_06.jpg"  imagesBig="34951-bigpic_06.jpg"/>
+				<images imagesSmall="34951-smallpic_07.jpg"  imagesBig="34951-bigpic_07.jpg"/>
+				<images imagesSmall="34951-smallpic_08.jpg"  imagesBig="34951-bigpic_08.jpg"/>
+		
+			</gallery>
+
+		</titlePage>
+			
+			
+		<titlePage name="About page">
+	
+			<imagesPage>
+				
+				<image imageUrl="34951-image_01.jpg" link="asfunction:link"></image>
+	
+			</imagesPage>
+				
+			<texts>
+			
+				<pageText><![CDATA[My passion is capturing moments]]></pageText>
+				
+				<pageText><![CDATA[Aenean nonummy hendrerit maurihasellus porta. <br>Fusce suscipit varius mi. Cum sociis natoque <br>penatibus et magnis dis parturient montes, <br>nascetur ridiculus mus. Nulla dui. Fusce feugiat <br>malesuada odio. Morbi nunc odio, gravida at, <br>cursus necusemecenas tristique orci.<br><br>Duis ultricies pharetra magna. Donec accumsan <br>malesuada orci. Donec sit amet eros. Lorem <br>ipsum dolor sit amet, consectetuer adipiscing <br>elit. Mauris fermentum dictum magna. Sedreet <br>aliquam letellus dolor dapibus.<br><br>Aenean nonummy hendrerit maurihasellus porta. <br>Fusce suscipit varius mi. Cum sociis natoque <br>penatibus et magnis dis parturient montes, <br>nascetur ridiculus mus. Nulla dui. Fusce feugiat <br>malesuada odio. Morbi nunc odio, gravida at, <br>cursus necusemecenas tristique orci.<br><br>Duis ultricies pharetra magna. Donec accumsan <br>malesuada orci. Donec sit amet eros. Lorem <br>ipsum dolor sit amet, consectetuer adipiscing <br>elit. Mauris fermentum dictum magna. Sedreet <br>aliquam letellus dolor dapibus.<br><br>]]></pageText>
+				
+			</texts>
+			
+		</titlePage>
+	
+		
+		<titlePage name="Videos page">
+	
+			<videoGallery>
+				
+				<image imagesSmall="34951-imagegall_01.jpg" videopath="Tm8SFT9KQ1A"></image>
+				<image imagesSmall="34951-imagegall_02.jpg" videopath="xC_unfqZeqA"></image>
+				<image imagesSmall="34951-imagegall_03.jpg" videopath="b8JsSkPOzrs"></image>
+				<image imagesSmall="34951-imagegall_04.jpg" videopath="KFk8zuSg1-Y"></image>
+
+	
+			</videoGallery>
+				
+			<texts>
+			
+				<pageText><![CDATA[Latest videos]]></pageText>
+				
+			</texts>
+			
+		</titlePage>
+	
+	
+		<titlePage name="Contacts page">
+	
+			<imagesPage>
+				
+				<image imageUrl="34951-map.jpg" link="asfunction:link"></image>
+				<image imageUrl="34951-icon_4.png" link="asfunction:link"></image>
+				<image imageUrl="34951-icon_5.png" link="asfunction:link"></image>
+	
+			</imagesPage>
+		
+			<texts>
+			
+				<pageText><![CDATA[Contact me]]></pageText>
+				
+				<pageText><![CDATA[Cum sociis natoque penatibus et <br>magnis diurient montes, nascetur <br>ridiculus mus. Nulla dui. Fusce feu<br>giat malesuada odio. Morbi nunc <br>odio, gravida cursus nec luctusrem. <br>Maecenas.]]></pageText>
+				
+				<pageText><![CDATA[<font color="#292929"><b>8901 Marmora Road, <br>Glasgow, D04 89GR.</b></font><br><br>Phone:      +1 800 603 6035<br>FAX:          +1 800 889 9898<br>E-mail: <font color="#292929"><a href="asfunction:link"><b>mail@demolink.org</b></a></font>]]></pageText>
+				
+			
+			</texts>
+			
+		</titlePage>
+
+	</pages>
+
+
+<!-- privacy policy -->
+
+	<section name="privacyPolicy">
+		
+		<item name="pageTitle"><![CDATA[Privacy policy]]></item>
+		<item name="pageText" link="imgPriv"><![CDATA[<p><img src='34951-image_01.png' id='image_0'><b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum lacus.</b><br>Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Qrat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. Nulla dui. Fusce feugiat malesuada odio.<br><br><b>Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</b><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Duis ac turpis. Integer rutrum ante eu lacus. Nulla dui. Fusce feugiat malesuada odio. Phasellus porta. Fusce suscipit varius mi. Duis ac turpis. Integer rutrum ante eu lacus. <br><br><b><a href="asfunction:link">privacy@demolink.org</a></b></p>]]></item>
+				
+	</section>
+<!-- privacy policy -->
+
+</content>
